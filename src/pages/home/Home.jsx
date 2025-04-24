@@ -2,11 +2,19 @@
 import { h } from "preact";
 // import Header from "../../components/header/Header";
 
-import "../../styles/global.css"; // Certifique-se que isso define estilos globais
-import "./home.css"; // Caso você queira estilos específicos para essa página
+import "../../styles/global.css";
+import "./home.css";
 
 const Home = () => {
-  return <></>;
+  return (
+    <>
+      <div class={"firstPart"} />
+      <h1>
+        LUCAS <br /> BATISTA
+      </h1>
+      <p class={"subtitle"}>Mestre em Arq. Hospitalar</p>
+    </>
+  );
 };
 
 export default Home;
