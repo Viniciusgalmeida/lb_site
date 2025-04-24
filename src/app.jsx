@@ -1,10 +1,15 @@
 import "./app.css";
+import { Router } from "preact-router";
+
 import Home from "./pages/home/Home";
 
-export function App() {
+const App = () => {
   return (
-    <>
-      <Home />
-    </>
+    <Router>
+      <Home path="/" />
+      {/* <About path="/sobre" /> */}
+    </Router>
   );
-}
+};
+
+export default App;
