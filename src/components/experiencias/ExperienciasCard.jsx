@@ -7,8 +7,11 @@ const ExperienciasCard = ({ image, title, onClick }) => {
       <button
         className="experienciasCard"
         onClick={onClick}
-        src={image}
-        alt={`Ícone de ${title}`}
+        style={{
+          backgroundImage: `url(${image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <p className="experienciasCardText">{title}</p>
       </button>
