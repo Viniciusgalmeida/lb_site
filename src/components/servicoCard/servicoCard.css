@@ -10,6 +10,7 @@
   width: 80%;
   height: 150px;
   padding: 20px;
+  margin-bottom: 20px;
 
   display: flex;
   flex-direction: row;
@@ -25,7 +26,7 @@
 }
 
 .servicoCard:active {
-  background-color: var(--color-secondary);
+  background-color: var(--color-quaternary);
 }
 
 .servicoCardImage {

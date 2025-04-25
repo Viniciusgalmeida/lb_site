@@ -1,11 +1,9 @@
 import ServicoCard from "../../components/servicoCard/ServicoCard";
-// import { servicos } from "../../data/servicosData";
 import { servicos } from "./servicoData";
 
 const ServicoSection = () => {
   const handleServicoClick = id => {
     console.log(`Serviço ${id} clicado`);
-    // Adicione a lógica de navegação ou modal aqui
   };
 
   return (
@@ -13,8 +11,8 @@ const ServicoSection = () => {
       {servicos.map(servico => (
         <ServicoCard
           key={servico.id}
-          imagem={servico.imagem}
-          titulo={servico.titulo}
+          image={servico.image}
+          title={servico.title}
           onClick={() => handleServicoClick(servico.id)}
         />
       ))}

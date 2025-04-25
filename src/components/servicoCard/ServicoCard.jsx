@@ -1,19 +1,16 @@
-import React from "react";
 import "./servicoCard.css";
 import "../../styles/global.css";
-// import medicalBuilding from "../../assets/medicalBuilding.svg";
-import medicalBuilding from "../../assets/medicalBuilding.svg";
 
-const ServicoCard = () => {
+const ServicoCard = ({ image, title, onClick }) => {
   return (
     <div className="servicoCardContainer">
-      <button className="servicoCard">
+      <button className="servicoCard" onClick={onClick}>
         <img
-          src={medicalBuilding}
+          src={image}
           className="servicoCardImage"
-          alt="Ícone de Edifício Médico"
+          alt={`Ícone de ${title}`}
         />
-        <p className="servicoCardText">Arquitetura Hospitalar</p>
+        <p className="servicoCardText">{title}</p>
       </button>
     </div>
   );
