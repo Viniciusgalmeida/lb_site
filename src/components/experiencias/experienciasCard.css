@@ -1,0 +1,56 @@
+.experienciasCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experienciasCard {
+  width: 80%;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  transition: 100ms;
+}
+
+.experienciasCard:hover {
+  cursor: pointer;
+}
+.experienciasCard:active {
+  background-color: var(--color-secondary);
+}
+
+.experienciasCardText {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.1;
+
+  color: var(--color-tertiary);
+
+  width: 80%;
+  text-align: center;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.experienciasCard {
+  width: 80%;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  transition: 100ms;
+}

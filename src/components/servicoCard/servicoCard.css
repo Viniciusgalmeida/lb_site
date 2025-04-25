@@ -1,0 +1,49 @@
+.servicoCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicoCard {
+  background-color: var(--color-primary);
+  width: 80%;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: none;
+  transition: 100ms;
+}
+
+.servicoCard:hover {
+  cursor: pointer;
+}
+
+.servicoCard:active {
+  background-color: var(--color-quaternary);
+}
+
+.servicoCardImage {
+  width: 100px;
+  height: auto;
+}
+
+.servicoCardText {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.1;
+
+  color: var(--color-secondary);
+
+  width: 120px;
+  text-align: center;
+  word-wrap: break-word;
+  hyphens: auto;
+}
