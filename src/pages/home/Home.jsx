@@ -7,10 +7,12 @@ import "./home.css";
 
 import hospitalDesenhoEsquematico from "../../assets/hospitalDesenhoEsquematico.png";
 import lucasBatistaArq from "../../assets/lucas_batista_arq.png";
+import Header from "../../components/header/Header";
 
 const Home = () => {
   return (
     <>
+      <Header />
       <div class={"blueSquare"}>
         <h1>
           LUCAS <br /> BATISTA
