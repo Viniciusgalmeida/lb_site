@@ -7,14 +7,14 @@ import medicalBuilding from "../../assets/medicalBuilding.svg";
 const ServicoCard = () => {
   return (
     <div className="servicoCardContainer">
-      <div className="servicoCard">
+      <button className="servicoCard">
         <img
           src={medicalBuilding}
           className="servicoCardImage"
           alt="Ícone de Edifício Médico"
         />
         <p className="servicoCardText">Arquitetura Hospitalar</p>
-      </div>
+      </button>
     </div>
   );
 };

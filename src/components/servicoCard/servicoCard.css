@@ -15,6 +15,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  border: none;
+  transition: 100ms;
+}
+
+.servicoCard:hover {
+  cursor: pointer;
+}
+
+.servicoCard:active {
+  background-color: var(--color-secondary);
 }
 
 .servicoCardImage {
