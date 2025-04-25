@@ -23,6 +23,9 @@ const Home = () => {
         />
       </div>
       <img src={lucasBatistaArq} class={"lucasBatistaFoto"} />
+      <h3>
+        Serviços <br /> Oferecidos
+      </h3>
     </>
   );
 };
