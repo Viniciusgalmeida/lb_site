@@ -1,0 +1,28 @@
+.experienciasCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experienciasCard {
+  width: 80%;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: none;
+  transition: 100ms;
+}
+
+.experienciasCard:hover {
+  cursor: pointer;
+}
+.experienciasCard:active {
+  background-color: var(--color-quaternary);
+}
