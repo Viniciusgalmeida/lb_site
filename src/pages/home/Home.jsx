@@ -6,6 +6,7 @@ import "../../styles/global.css";
 import "./home.css";
 
 import hospitalDesenhoEsquematico from "../../assets/hospitalDesenhoEsquematico.png";
+import lucasBatistaArq from "../../assets/lucas_batista_arq.png";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
           alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
         />
       </div>
+      <img src={lucasBatistaArq} class={"lucasBatistaFoto"} />
     </>
   );
 };
