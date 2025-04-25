@@ -8,6 +8,7 @@ import "./home.css";
 import hospitalDesenhoEsquematico from "../../assets/hospitalDesenhoEsquematico.png";
 import lucasBatistaArq from "../../assets/lucas_batista_arq.png";
 import Header from "../../components/header/Header";
+import ServicoCard from "../../components/servicoCard/ServicoCard";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       <h3>
         Serviços <br /> Oferecidos
       </h3>
+      <ServicoCard />
     </>
   );
 };
