@@ -88,6 +88,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  overflow-y: auto; /* Permitir scroll interno se o conteúdo for grande */
 }
 
 .popupContent button:hover {
@@ -116,10 +117,14 @@
   border: none;
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: var(--color-tertiary);
   cursor: pointer;
 }
 
 .closeButton:hover {
   color: var(--color-primary); /* muda a cor ao passar o mouse */
+}
+
+.no-scroll {
+  overflow: hidden;
 }
