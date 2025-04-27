@@ -8,24 +8,62 @@ export const servicos = [
     id: 1,
     title: "Arquitetura Hospitalar",
     image: medicalBuilding,
-    text: "Projetos de Arquitetura completos de estabelecimentos assistenciais de saúde (EAS), como clínicas, laboratórios, e EAS de todas complexidades desde unidades básicas até hospitais especializados.",
+    text: [
+      {
+        subText: "O serviço de projeto de arquitetura hospitalar consiste em:",
+        bulletPoints: [
+          "Elaboração do projeto legal de arquitetura (seja reforma ou obra nova) voltado para aprovação na Vigilância Sanitária local.",
+          "Acompanhamento da avaliação do projeto até ser aprovado.",
+          "Este processo pode envolver revisões ou reuniões com os órgãos reguladores.",
+        ],
+      },
+    ],
   },
   {
     id: 2,
     title: "Projetos para aprovação na Vigilância Sanitária",
     image: stampApproved,
-    text: "O serviço de aprovação na vigilância sanitária consiste na elaboração do projeto legal de arquitetura (seja reforma ou obra nova) voltado para aprovação na Vigilância Sanitária local, e no acompanhamento da avaliação do projeto até ser aprovado, este processo pode envolver revisões ou reuniões com os órgãos reguladores.",
+    text: [
+      {
+        subText: "O serviço de aprovação na vigilânicia sanitária consiste em:",
+        bulletPoints: [
+          "Elaboração do projeto legal de arquitetura (seja reforma ou obra nova) voltado para aprovação na Vigilância Sanitária local.",
+          "Acompanhamento da avaliação do projeto até ser aprovado.",
+          "Este processo pode envolver revisões ou reuniões com os órgãos reguladores.",
+        ],
+      },
+    ],
   },
   {
     id: 3,
     title: "Consultoria de Arquitetura",
     image: architectBlueprint,
-    text: "Consultoria técnica especializada em projetos de estabelecimentos assistenciais de saúde (EAS), como hospitais, clínicas, unidades básicas de saúde (UBS), unidades de pronto atendimento (UPA 24h), entre outros;",
+    text: [
+      {
+        subText:
+          "Consultoria técnica especializada em projetos de estabelecimentos assistenciais de saúde (EAS), como :",
+        bulletPoints: [
+          "Hospitais",
+          "Clínicas",
+          "Unidades básicas de saúde (UBS)",
+          "Unidades de pronto atendimento (UPA 24h)",
+        ],
+      },
+    ],
   },
   {
     id: 4,
     title: "REVIT: Consultoria e Treinamento",
     image: revitIcon,
-    text: "Implantação do uso do programa Revit nas rotinas de serviços da Engenharia Hospitalar de Hospitais de grande porte. Criação de processos de trabalho para se trabalhar em um modelo único e central do hospital com diversas obras diferenciadas. Criação de famílias específicas para equipamentos e móveis padronizados utilizados pela instituição. ",
+    text: [
+      {
+        subText: "Consultoria e treinamento para:",
+        bulletPoints: [
+          "Implantação do uso do programa Revit nas rotinas de serviços da Engenharia Hospitalar de Hospitais de grande porte.",
+          "Criação de processos de trabalho para se trabalhar em um modelo único e central do hospital com diversas obras diferenciadas.",
+          "Criação de famílias específicas para equipamentos e móveis padronizados utilizados pela instituição.",
+        ],
+      },
+    ],
   },
 ];

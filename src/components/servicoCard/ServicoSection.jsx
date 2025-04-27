@@ -29,7 +29,20 @@ const ServicoSection = () => {
         {selectedServico && (
           <>
             <h2>{selectedServico.title}</h2>
-            <p className="popupText">{selectedServico.text}</p>
+            {typeof selectedServico.text === "string" ? (
+              <p>{selectedServico.text}</p>
+            ) : Array.isArray(selectedServico.text) ? (
+              selectedServico.text.map((item, index) => (
+                <div key={index}>
+                  <p>{item.subText}</p>
+                  <ul>
+                    {item.bulletPoints.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))
+            ) : null}
           </>
         )}
       </Popup>

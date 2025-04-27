@@ -14,11 +14,25 @@
 }
 
 .popupContent {
-  background: white;
+  background: var(--color-secondary);
   padding: 20px 30px;
   text-align: center;
   max-width: 400px;
   width: 90%;
+
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.1;
+
+  color: var(--color-tertiary);
+
+  text-align: start;
+  word-wrap: break-word;
+  hyphens: auto;
+
+  margin: 0;
+  list-style-type: disc;
 }
 
 .popupContent h2 {
@@ -26,6 +40,7 @@
   font-family: var(--font-family-main);
   color: var(--color-primary);
   font-weight: var(--font-weight-bold);
+  text-align: center;
 }
 
 .popupContent button {
@@ -39,11 +54,20 @@
   overflow-y: auto; /* Permitir scroll interno se o conteúdo for grande */
 }
 
+.popupContent ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.popupContent li {
+  margin: 5px 0;
+}
+
 .popupContent button:hover {
   background-color: var(--color-secondary);
 }
 
-.popupText {
+/* .popupText {
   font-family: var(--font-family-main);
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-normal);
@@ -52,10 +76,19 @@
   color: var(--color-tertiary);
 
   width: 100%;
-  text-align: center;
+  text-align: start;
   word-wrap: break-word;
   hyphens: auto;
+
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+  padding-left: 20px;
 }
+
+.popupText li {
+  margin-bottom: 10px;
+} */
 
 .closeButton {
   position: absolute;
