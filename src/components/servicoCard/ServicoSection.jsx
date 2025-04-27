@@ -1,22 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import ServicoCard from "../../components/servicoCard/ServicoCard";
 import { servicos } from "./servicoData";
+import Popup from "../../components/popup/Popup"; // Importar o novo componente
 
 const ServicoSection = () => {
   const [selectedServico, setSelectedServico] = useState(null);
-
-  // Controlar o scroll do body quando o popup está ativo
-  useEffect(() => {
-    if (selectedServico) {
-      document.body.classList.add("no-scroll");
-    } else {
-      document.body.classList.remove("no-scroll");
-    }
-    // Limpar a classe ao desmontar o componente
-    return () => {
-      document.body.classList.remove("no-scroll");
-    };
-  }, [selectedServico]);
 
   const handleServicoClick = servico => {
     setSelectedServico(servico);
@@ -37,17 +25,14 @@ const ServicoSection = () => {
         />
       ))}
 
-      {selectedServico && (
-        <div className="popupOverlay" onClick={closePopup}>
-          <div className="popupContent" onClick={e => e.stopPropagation()}>
-            <button className="closeButton" onClick={closePopup}>
-              ×
-            </button>
+      <Popup isOpen={!!selectedServico} onClose={closePopup}>
+        {selectedServico && (
+          <>
             <h2>{selectedServico.title}</h2>
             <p className="popupText">{selectedServico.text}</p>
-          </div>
-        </div>
-      )}
+          </>
+        )}
+      </Popup>
     </div>
   );
 };
