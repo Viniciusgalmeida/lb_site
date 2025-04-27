@@ -29,12 +29,10 @@ const ExperienciasSection = () => {
         {selectedExperiencia && (
           <>
             <h2>{selectedExperiencia.title}</h2>
-
             {/* Texto como string */}
             {typeof selectedExperiencia.text === "string" && (
               <p>{selectedExperiencia.text}</p>
             )}
-
             {/* Texto como array de seções */}
             {Array.isArray(selectedExperiencia.text) &&
               selectedExperiencia.text.map((item, index) => (
@@ -47,8 +45,16 @@ const ExperienciasSection = () => {
                   </ul>
                 </div>
               ))}
-
             {/* Texto como objeto único */}
+
+            {selectedExperiencia.image && (
+              <img
+                src={selectedExperiencia.image}
+                alt={selectedExperiencia.title}
+                className="experienciasImage"
+              />
+            )}
+
             {selectedExperiencia.text &&
               typeof selectedExperiencia.text === "object" &&
               !Array.isArray(selectedExperiencia.text) &&
@@ -62,6 +68,16 @@ const ExperienciasSection = () => {
                   </ul>
                 </>
               )}
+            {typeof selectedExperiencia.link === "string" && (
+              <a
+                href={selectedExperiencia.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <br />
+                Instagran do arquiteto Mario Corea
+              </a>
+            )}
           </>
         )}
       </Popup>
