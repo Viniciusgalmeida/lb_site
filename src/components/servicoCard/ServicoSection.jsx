@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ServicoCard from "../../components/servicoCard/ServicoCard";
 import { servicos } from "./servicoData";
-import Popup from "../../components/popup/Popup"; // Importar o novo componente
+import Popup from "../../components/popup/Popup";
 
 const ServicoSection = () => {
   const [selectedServico, setSelectedServico] = useState(null);
