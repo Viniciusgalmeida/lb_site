@@ -67,29 +67,6 @@
   background-color: var(--color-secondary);
 }
 
-/* .popupText {
-  font-family: var(--font-family-main);
-  font-size: var(--font-size-md);
-  font-weight: var(--font-weight-normal);
-  line-height: 1.1;
-
-  color: var(--color-tertiary);
-
-  width: 100%;
-  text-align: start;
-  word-wrap: break-word;
-  hyphens: auto;
-
-  padding: 0;
-  margin: 0;
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.popupText li {
-  margin-bottom: 10px;
-} */
-
 .closeButton {
   position: absolute;
   top: 10px;
