@@ -50,6 +50,7 @@
 
 /* pop up ----------------------------------------- */
 
+/*
 .popupOverlay {
   position: fixed;
   top: 0;
@@ -88,7 +89,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  overflow-y: auto; /* Permitir scroll interno se o conteúdo for grande */
+  overflow-y: auto;
 }
 
 .popupContent button:hover {
@@ -122,9 +123,10 @@
 }
 
 .closeButton:hover {
-  color: var(--color-primary); /* muda a cor ao passar o mouse */
+  color: var(--color-primary);
 }
 
 .no-scroll {
   overflow: hidden;
 }
+*/
