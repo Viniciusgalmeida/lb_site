@@ -5,20 +5,6 @@
   justify-content: center;
 }
 
-.experienciasCard {
-  width: 80%;
-  height: 150px;
-  padding: 20px;
-  margin-bottom: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border: none;
-  transition: 100ms;
-}
-
 .experienciasCard:hover {
   cursor: pointer;
 }
@@ -38,6 +24,9 @@
   text-align: center;
   word-wrap: break-word;
   hyphens: auto;
+
+  position: relative;
+  z-index: 2;
 }
 
 .experienciasCard {
@@ -46,6 +35,7 @@
   padding: 20px;
   margin-bottom: 20px;
   position: relative;
+  overflow: hidden; /* Para cortar o excesso da imagem */
 
   display: flex;
   justify-content: center;
@@ -53,4 +43,25 @@
 
   border: none;
   transition: 100ms;
+}
+
+.backgroundOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.experienciasImage {
+  opacity: 2;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 5px 0 20px 0;
 }

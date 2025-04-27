@@ -35,6 +35,10 @@
 
   margin: 0;
   list-style-type: disc;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .popupContent h2 {
