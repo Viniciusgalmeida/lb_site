@@ -1,9 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ServicoCard from "../../components/servicoCard/ServicoCard";
 import { servicos } from "./servicoData";
 
 const ServicoSection = () => {
   const [selectedServico, setSelectedServico] = useState(null);
+
+  // Controlar o scroll do body quando o popup está ativo
+  useEffect(() => {
+    if (selectedServico) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+    // Limpar a classe ao desmontar o componente
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [selectedServico]);
 
   const handleServicoClick = servico => {
     setSelectedServico(servico);
