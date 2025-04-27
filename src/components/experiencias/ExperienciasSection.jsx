@@ -1,3 +1,4 @@
+import Popup from "../popup/Popup";
 import ExperienciasCard from "./ExperienciasCard";
 import { experiencias } from "./experienciasData";
 
@@ -16,6 +17,8 @@ const ExperienciasSection = () => {
           onClick={() => handleCardClick(experiencia.title)}
         />
       ))}
+
+      <Popup></Popup>
     </div>
   );
 };

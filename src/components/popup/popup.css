@@ -1,56 +1,3 @@
-.servicoCardContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.servicoCard {
-  background-color: var(--color-primary);
-  width: 80%;
-  height: 150px;
-  padding: 20px;
-  margin-bottom: 20px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  border: none;
-  transition: 100ms;
-}
-
-.servicoCard:hover {
-  cursor: pointer;
-}
-
-.servicoCard:active {
-  background-color: var(--color-quaternary);
-}
-
-.servicoCardImage {
-  width: 100px;
-  height: auto;
-}
-
-.servicoCardText {
-  font-family: var(--font-family-main);
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-normal);
-  line-height: 1.1;
-
-  color: var(--color-secondary);
-
-  width: 120px;
-  text-align: center;
-  word-wrap: break-word;
-  hyphens: auto;
-}
-
-/* pop up ----------------------------------------- */
-
-/*
 .popupOverlay {
   position: fixed;
   top: 0;
@@ -67,11 +14,25 @@
 }
 
 .popupContent {
-  background: white;
+  background: var(--color-secondary);
   padding: 20px 30px;
   text-align: center;
   max-width: 400px;
   width: 90%;
+
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.1;
+
+  color: var(--color-tertiary);
+
+  text-align: start;
+  word-wrap: break-word;
+  hyphens: auto;
+
+  margin: 0;
+  list-style-type: disc;
 }
 
 .popupContent h2 {
@@ -79,6 +40,7 @@
   font-family: var(--font-family-main);
   color: var(--color-primary);
   font-weight: var(--font-weight-bold);
+  text-align: center;
 }
 
 .popupContent button {
@@ -89,14 +51,23 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  overflow-y: auto;
+  overflow-y: auto; /* Permitir scroll interno se o conteúdo for grande */
+}
+
+.popupContent ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.popupContent li {
+  margin: 5px 0;
 }
 
 .popupContent button:hover {
   background-color: var(--color-secondary);
 }
 
-.popupText {
+/* .popupText {
   font-family: var(--font-family-main);
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-normal);
@@ -105,10 +76,19 @@
   color: var(--color-tertiary);
 
   width: 100%;
-  text-align: center;
+  text-align: start;
   word-wrap: break-word;
   hyphens: auto;
+
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+  padding-left: 20px;
 }
+
+.popupText li {
+  margin-bottom: 10px;
+} */
 
 .closeButton {
   position: absolute;
@@ -123,10 +103,9 @@
 }
 
 .closeButton:hover {
-  color: var(--color-primary);
+  color: var(--color-primary); /* muda a cor ao passar o mouse */
 }
 
 .no-scroll {
   overflow: hidden;
 }
-*/
