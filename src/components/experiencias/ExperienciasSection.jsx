@@ -81,7 +81,6 @@ const ExperienciasSection = () => {
           </>
         )}
       </Popup>
-      <h3>Livro</h3>
     </div>
   );
 };
