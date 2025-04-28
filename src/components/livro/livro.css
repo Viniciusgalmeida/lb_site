@@ -1,0 +1,26 @@
+.containerLivroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px; */
+}
+
+.imageLivroSection {
+  width: 70%;
+  height: auto;
+  max-width: 300px;
+}
+
+.textLivroSection {
+  width: 70%;
+  max-width: 300px;
+  height: auto;
+  text-align: center;
+
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-tertiary);
+
+  margin: 20px 0;
+}

@@ -75,7 +75,7 @@ const ExperienciasSection = () => {
                 rel="noopener noreferrer"
               >
                 <br />
-                Instagran do arquiteto Mario Corea
+                Instagram do arquiteto Mario Corea
               </a>
             )}
           </>

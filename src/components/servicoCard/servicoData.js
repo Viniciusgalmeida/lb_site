@@ -25,7 +25,7 @@ export const servicos = [
     image: stampApproved,
     text: [
       {
-        subText: "O serviço de aprovação na vigilânicia sanitária consiste em:",
+        subText: "O serviço de aprovação na vigilância sanitária consiste em:",
         bulletPoints: [
           "Elaboração do projeto legal de arquitetura (seja reforma ou obra nova) voltado para aprovação na Vigilância Sanitária local.",
           "Acompanhamento da avaliação do projeto até ser aprovado.",
@@ -41,7 +41,7 @@ export const servicos = [
     text: [
       {
         subText:
-          "Consultoria técnica especializada em projetos de estabelecimentos assistenciais de saúde (EAS), como :",
+          "Consultoria técnica especializada em projetos de estabelecimentos assistenciais de saúde (EAS), como:",
         bulletPoints: [
           "Hospitais",
           "Clínicas",
@@ -59,7 +59,7 @@ export const servicos = [
       {
         subText: "Consultoria e treinamento para:",
         bulletPoints: [
-          "Implantação do uso do programa Revit nas rotinas de serviços da Engenharia Hospitalar de Hospitais de grande porte.",
+          "Implantação do uso do programa Revit nas rotinas de serviços da Engenharia Hospitalar de hospitais de grande porte.",
           "Criação de processos de trabalho para se trabalhar em um modelo único e central do hospital com diversas obras diferenciadas.",
           "Criação de famílias específicas para equipamentos e móveis padronizados utilizados pela instituição.",
         ],

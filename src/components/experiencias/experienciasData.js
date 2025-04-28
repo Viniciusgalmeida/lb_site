@@ -7,7 +7,7 @@ import inbec from "../../assets/inbec.png";
 export const experiencias = [
   {
     id: 1,
-    title: "Arquiteto no Hospital Risoleta Tolentino Neves 2018 à 2025",
+    title: "Arquiteto no Hospital Risoleta Tolentino Neves 2018 a 2025",
     image: hospitalRisoleta,
     text: {
       subText:
@@ -52,14 +52,14 @@ export const experiencias = [
   {
     id: 4,
     title:
-      "Coordenação Geral de Urgência e Emergência. Ministério da Saúde 2012 à 2014",
+      "Coordenação Geral de Urgência e Emergência. Ministério da Saúde 2012 a 2014",
     image: ministerioSaude,
     text: {
       subText:
         "Consultor Técnico de Arquitetura da Coordenação Geral de Urgência e Emergência do Ministério da Saúde (CGUE/DAUH/SAS/MS).       Atividades envolvidas:",
       bulletPoints: [
-        "Auxílio aos Gestores Municipais (inloco) no desenvolvimento e implantação dos programas SAMU 192 e UPA 24h pelo Brasil. Viajamos até os municípios para prestar este suporte e verificar a execução.",
-        "Análise e aprovação de projetos arquitetônicos referente aos programas UPA 24h e SAMU 192 encaminhados ao Ministério da Saúde pelos municípios Brasileiros.",
+        "Auxílio aos Gestores Municipais (in loco) no desenvolvimento e implantação dos programas SAMU 192 e UPA 24h pelo Brasil. Viajamos até os municípios para prestar este suporte e verificar a execução.",
+        "Análise e aprovação de projetos arquitetônicos referente aos programas UPA 24h e SAMU 192 encaminhados ao Ministério da Saúde pelos municípios brasileiros.",
         "Desenvolvimento do layout e visual do Hospital de Campanha da Força Nacional do SUS.",
         "Elaboração de mapas representando a distribuição do SAMU 192 no Brasil para o Núcleo de Ensino, Pesquisa e Informações da Coordenação Geral de Urgência e Emergência. Usando os programas TABWIN e Illustrator.",
         "Acompanhamento e apoio técnico para a Elaboração dos Projetos Padrão de UPA 24h, CAPS, UBS e CER licitados pelo Ministério da Saúde.",
@@ -70,8 +70,8 @@ export const experiencias = [
   {
     id: 5,
     title:
-      "Especialização em arquitetura de hospitais, clínicas e laboratórios -INBEC",
+      "Especialização em arquitetura de hospitais, clínicas e laboratórios - INBEC",
     image: inbec,
-    text: "Pós Graduação para engenheiros e arquitetos que forneceu treinamento necessário para intervir adequadamente no planejamento e projeto de unidades de saúde, compatibilizando novas visões do espaço hospitalar e demais ambientes de saúde no que diz respeito à adequação, projeto e administração destes espaços, com ênfase no acolhimento, conforto e humanização hospitalar.",
+    text: "Pós-graduação para engenheiros e arquitetos que forneceu treinamento necessário para intervir adequadamente no planejamento e projeto de unidades de saúde, compatibilizando novas visões do espaço hospitalar e demais ambientes de saúde no que diz respeito à adequação, projeto e administração destes espaços, com ênfase no acolhimento, conforto e humanização hospitalar.",
   },
 ];

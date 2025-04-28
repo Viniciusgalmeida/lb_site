@@ -6,6 +6,7 @@ import lucasBatistaArq from "../../assets/lucas_batista_arq.png";
 import Header from "../../components/header/Header";
 import ServicoSection from "../../components/servicoCard/ServicoSection";
 import ExperienciasSection from "../../components/experiencias/ExperienciasSection";
+import LivroSection from "../../components/livro/LivroSection";
 
 const Home = () => {
   return (
@@ -29,6 +30,8 @@ const Home = () => {
       <ServicoSection />
       <h3>Experiências</h3>
       <ExperienciasSection />
+      <h3>Livro</h3>
+      <LivroSection />
     </>
   );
 };
