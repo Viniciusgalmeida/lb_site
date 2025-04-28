@@ -7,6 +7,7 @@ import Header from "../../components/header/Header";
 import ServicoSection from "../../components/servicoCard/ServicoSection";
 import ExperienciasSection from "../../components/experiencias/ExperienciasSection";
 import LivroSection from "../../components/livro/LivroSection";
+import ContatoSection from "../../components/contato/ContatoSection";
 
 const Home = () => {
   return (
@@ -32,6 +33,8 @@ const Home = () => {
       <ExperienciasSection />
       <h3>Livro</h3>
       <LivroSection />
+      <ContatoSection />
+      <footer>Site feito por Vinícius Almeida</footer>
     </>
   );
 };

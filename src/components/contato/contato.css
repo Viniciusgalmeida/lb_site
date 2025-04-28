@@ -1,0 +1,13 @@
+.titleContato {
+  color: var(--color-secondary);
+}
+
+.containerContato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: var(--color-primary);
+}

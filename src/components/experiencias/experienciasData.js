@@ -30,7 +30,7 @@ export const experiencias = [
   },
   {
     id: 2,
-    title: "Master em Arquitetura Sanitária, Barcelona",
+    title: "Mestrado em Arquitetura Sanitária, Barcelona",
     image: masterLucasBatista,
     text: "Mestrado concedido pela Universitat Politècnica de Catalunya, ministrado pelo arquiteto Mario Corea e sua equipe. Foi um trabalho extenso desenvolvido em Barcelona dentro do escritório do consagrado arquiteto Mario Corea, junto com mais 9 alunos de diversas partes da América Latina. O Trabalho final foi uma tese em forma de livro e o tema escolhido foi Hospital de Emergência para Região Metropolitana de Belo Horizonte.",
     link: "https://www.instagram.com/mariocorea_arq?igsh=MWphbnZ4eThyMXF1dQ==",
