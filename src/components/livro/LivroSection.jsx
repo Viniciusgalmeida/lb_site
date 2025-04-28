@@ -1,12 +1,14 @@
 import StandardButton from "../standardButton/StandardButton";
 import "./livro.css";
+import livroImage from "../../assets/hospitalArchitectureBook.png";
 
 function LivroSection() {
   return (
     <div className="containerLivroSection">
       <img
-        src={"src/assets/hospitalArchitectureBook.png"}
+        src={livroImage}
         className="imageLivroSection"
+        alt="Imagem de livro com um hospital na capa"
       />
       <p className="textLivroSection">
         Trabalho final do mestrado desenvolvido em Barcelona, sob orientação do
