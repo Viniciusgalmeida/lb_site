@@ -1,3 +1,4 @@
+import StandardButton from "../standardButton/StandardButton";
 import "./livro.css";
 
 function LivroSection() {
@@ -12,9 +13,9 @@ function LivroSection() {
         escritório de arquitetura Mario Corea, tese em forma de livro cujo tema
         é Hospital de Emergência para Região Metropolitana de Belo Horizonte.
       </p>
-      <button className="buttonLivroSection">
+      <StandardButton href="https://drive.google.com/file/d/14yY341VE1xXrtyPWSkpgcedWdGTFmYEL/view">
         Visualizar livro para donwload
-      </button>
+      </StandardButton>
     </div>
   );
 }
