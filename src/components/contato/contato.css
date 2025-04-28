@@ -1,0 +1,30 @@
+.titleContato {
+  color: var(--color-secondary);
+}
+
+.containerContato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: var(--color-primary);
+  padding-bottom: 40px;
+  margin-bottom: 10px;
+}
+
+.contatoLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+
+  width: 80%;
+}
+
+.iconStyle {
+  width: 50px;
+  height: 50px;
+}
