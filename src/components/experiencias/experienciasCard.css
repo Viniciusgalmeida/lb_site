@@ -72,6 +72,6 @@
   left: 5px;
   width: 15px;
   height: auto;
-  z-index: 3; /* acima do overlay e do texto */
+  z-index: 3;
   opacity: 0.8;
 }
