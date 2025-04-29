@@ -8,6 +8,8 @@ import ServicoSection from "../../components/servicoCard/ServicoSection";
 import ExperienciasSection from "../../components/experiencias/ExperienciasSection";
 import LivroSection from "../../components/livro/LivroSection";
 import ContatoSection from "../../components/contato/ContatoSection";
+// import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -34,7 +36,7 @@ const Home = () => {
       <h3>Livro</h3>
       <LivroSection />
       <ContatoSection />
-      <footer>Site feito por Vinícius Almeida</footer>
+      {/* <Footer /> */}
     </>
   );
 };
