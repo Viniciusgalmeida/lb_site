@@ -1,10 +1,12 @@
 import "./experienciasCard.css";
 import "../../styles/global.css";
+import openIcon from "../../assets/openIcon.svg";
 
 const ExperienciasCard = ({ image, title, onClick }) => {
   return (
     <div className="experienciasCardContainer">
       <button className="experienciasCard" onClick={onClick}>
+        <img src={openIcon} alt="Abrir popup" className="openIcon" />
         <div
           className="backgroundOverlay"
           style={{
