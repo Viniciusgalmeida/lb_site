@@ -21,8 +21,7 @@ function ContatoSection() {
           />
         </a>
         <a
-          href="https://wa.me/553189022905?text=Ol%C3%A1%2C%20Lucas%20Batista.%20Entrei%20em%20contato%20atrav%C3%A9s%20do%20seu%20site.
-"
+          href="https://wa.me/553189022905?text=Ol%C3%A1%2C%20Lucas%20Batista."
           target="_blank"
           rel="noopener noreferrer"
         >

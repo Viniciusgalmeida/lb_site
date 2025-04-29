@@ -1,0 +1,13 @@
+footer {
+  position: relative;
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-normal);
+  font-size: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
