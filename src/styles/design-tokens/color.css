@@ -4,6 +4,7 @@
   --color-tertiary: #2e2f36;
   --color-quaternary: #1f376d;
   --color-black-transparent: rgba(0, 0, 0, 0.5);
+  --color-darkblue-transparent: rgba(0, 32, 64, 0.95);
 
   --color-background: #e9eaf0;
 }

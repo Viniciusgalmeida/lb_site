@@ -27,15 +27,17 @@ const Home = () => {
         />
       </div>
       <img src={lucasBatistaArq} class={"lucasBatistaFoto"} />
-      <h3>
+      <h3 id="servicos">
         Serviços <br /> Oferecidos
       </h3>
       <ServicoSection />
-      <h3>Experiências</h3>
+      <h3 id="experiencias">Experiências</h3>
       <ExperienciasSection />
-      <h3>Livro</h3>
+      <h3 id="livro">Livro</h3>
       <LivroSection />
-      <ContatoSection />
+      <div id="contato">
+        <ContatoSection />
+      </div>
       {/* <Footer /> */}
     </>
   );
