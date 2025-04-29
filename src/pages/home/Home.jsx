@@ -10,11 +10,13 @@ import LivroSection from "../../components/livro/LivroSection";
 import ContatoSection from "../../components/contato/ContatoSection";
 // import Footer from "../../components/footer/Footer";
 import Footer from "../../components/footer/Footer";
+import ScrollToTopButton from "../../components/scrollToTop/ScrollToTopButton";
 
 const Home = () => {
   return (
     <>
       <Header />
+      <ScrollToTopButton />
       <div class={"blueSquare"}>
         <h1>
           LUCAS <br /> BATISTA
