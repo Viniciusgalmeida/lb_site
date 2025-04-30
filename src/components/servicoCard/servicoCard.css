@@ -3,13 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .servicoCard {
   background-color: var(--color-primary);
   width: 80%;
   height: 150px;
-  padding: 20px;
+  padding: 20px 5%;
   margin-bottom: 20px;
 
   display: flex;
@@ -43,13 +44,14 @@
 
   color: var(--color-secondary);
 
-  width: 120px;
+  width: 60%;
   text-align: center;
   word-wrap: break-word;
   hyphens: auto;
 }
 
 .openIcon {
+  display: none;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -57,4 +59,28 @@
   height: 15px;
   z-index: 2;
   opacity: 0.8;
+}
+
+.openIcon:hover {
+  display: block;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .servicoCardContainer {
+    display: block;
+    max-width: 40%;
+  }
+
+  .servicoCard {
+    width: 100%;
+  }
+
+  .servicoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
