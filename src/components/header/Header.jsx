@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import logoLucasBatista from "../../assets/lucasBatistaLogo.svg";
 import menuHamburger from "../../assets/menuHamburger.svg";
+import menuHamburgerBlue from "../../assets/menuHamburgerBlue.svg";
 
 const Header = () => {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -27,6 +28,11 @@ const Header = () => {
             <img
               src={menuHamburger}
               className="menuHamburger"
+              alt="Abrir menu"
+            />
+            <img
+              src={menuHamburgerBlue}
+              className="menuHamburgerblue"
               alt="Abrir menu"
             />
           </button>
