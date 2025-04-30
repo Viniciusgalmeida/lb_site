@@ -36,9 +36,7 @@ const Home = () => {
         alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
       />
       <img src={lucasBatistaArq} class={"lucasBatistaFoto"} />
-      <h3 id="servicos">
-        Serviços <br /> Oferecidos
-      </h3>
+      <h3 id="servicos">Serviços Oferecidos</h3>
       <ServicoSection />
       <h3 id="experiencias">Experiências</h3>
       <ExperienciasSection />

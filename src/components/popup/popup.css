@@ -30,7 +30,7 @@
   color: var(--color-tertiary);
 
   text-align: start;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   hyphens: auto;
 
   margin: 0;

@@ -22,11 +22,14 @@
 
   width: 80%;
   text-align: center;
-  word-wrap: break-word;
+
   hyphens: auto;
 
   position: relative;
   z-index: 2;
+
+
+  hyphens: none;
 }
 
 .experienciasCard {
@@ -74,4 +77,24 @@
   height: auto;
   z-index: 3;
   opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .experienciasCardContainer {
+    width: 40%;
+  }
+
+  .experienciasCard {
+    width: 100%;
+  }
+
+
+
+.experienciasSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  width: 100%;
 }

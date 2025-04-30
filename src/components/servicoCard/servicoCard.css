@@ -46,8 +46,7 @@
 
   width: 60%;
   text-align: center;
-  word-wrap: break-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .openIcon {
@@ -68,7 +67,6 @@
 
 @media (min-width: 768px) {
   .servicoCardContainer {
-    display: block;
     max-width: 40%;
   }
 
