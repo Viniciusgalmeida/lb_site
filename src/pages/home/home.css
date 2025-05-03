@@ -98,10 +98,27 @@ h3 {
   .lucasBatistaFoto {
     margin-top: -10vh;
     width: 100%;
+    width: 35vw;
     max-width: 350px;
     left: -10%;
   }
   h3 {
     padding-top: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blueSquare {
+    height: 80vh;
+    padding-left: 18vw;
+  }
+
+  h1,
+  .subtitle {
+    margin-top: 0px;
+  }
+  .lucasBatistaFoto {
+    width: 25vw;
+    margin-top: -30vh;
   }
 }

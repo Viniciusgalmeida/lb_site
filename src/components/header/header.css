@@ -91,6 +91,10 @@
   cursor: pointer;
 }
 
+.menuContainerText {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .menuHamburger {
     display: none;
@@ -98,5 +102,53 @@
 
   .menuHamburgerblue {
     display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menuHamburgerblue {
+    display: none;
+  }
+
+  .header {
+    max-width: 1920px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .menuContainerText {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    max-width: 500px;
+    position: absolute;
+    right: 5%;
+    list-style: none;
+
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+
+    top: 40px;
+    right: 0;
+  }
+
+  .menuText {
+    color: var(--color-tertiary);
+    text-decoration: none;
+    /* background-color: red; */
+  }
+
+  .menuText:hover {
+    color: var(--color-quaternary);
+    text-decoration: underline;
   }
 }
