@@ -82,3 +82,10 @@
     justify-content: space-evenly;
   }
 }
+
+@media (min-width: 1024px) {
+  .servicoContainer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

@@ -28,7 +28,6 @@
   position: relative;
   z-index: 2;
 
-
   hyphens: none;
 }
 
@@ -88,13 +87,18 @@
     width: 100%;
   }
 
+  .experienciasSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
-
-.experienciasSection {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
-  width: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .experienciasSection {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }

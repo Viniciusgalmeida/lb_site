@@ -17,8 +17,11 @@ function LivroSection() {
           tema é Hospital de Emergência para Região Metropolitana de Belo
           Horizonte.
         </p>
-        <StandardButton href="https://drive.google.com/file/d/14yY341VE1xXrtyPWSkpgcedWdGTFmYEL/view">
-          Visualizar livro para donwload
+        <StandardButton
+          href="/Hospital_de_Emergencias_para_la_Region_Metropolitana_de_Belo_Horizonte.pdf"
+          download
+        >
+          Baixar livro em PDF
         </StandardButton>
       </div>
     </div>

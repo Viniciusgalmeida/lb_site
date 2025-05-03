@@ -36,6 +36,28 @@ const Header = () => {
               alt="Abrir menu"
             />
           </button>
+          <ul className="menuContainerText">
+            <li>
+              <a href="#servicos" className="menuText">
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a href="#experiencias" className="menuText">
+                Experiências
+              </a>
+            </li>
+            <li>
+              <a href="#livro" className="menuText">
+                Livro
+              </a>
+            </li>
+            <li>
+              <a href="#contato" className="menuText">
+                Contato
+              </a>
+            </li>
+          </ul>
         </nav>
       </header>
 
