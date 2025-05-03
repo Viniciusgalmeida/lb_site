@@ -27,3 +27,90 @@
   width: 50px;
   height: 50px;
 }
+
+.botaoCopiarEmail {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .contatoLinks {
+    max-width: 400px;
+  }
+
+  .containerContato {
+    padding-bottom: 75px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .botaoCopiarEmail {
+    display: block;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: 200ms;
+  }
+
+  .botaoCopiarEmail:hover {
+    background-color: orange;
+    color: var(--color-primary);
+  }
+
+  .botaoCopiarEmail:active {
+    scale: 0.95;
+  }
+  .notificacaoCopiado {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    animation: fadein 0.3s, fadeout 0.3s 2.7s;
+    z-index: 9999;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
+
+  .iconeCopia {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+  }
+
+  .notificacaoCopiado {
+    font-family: var(--font-family-main);
+  }
+}
