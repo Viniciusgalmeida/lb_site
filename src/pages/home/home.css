@@ -2,7 +2,7 @@ h1,
 .subtitle {
   font-family: var(--font-family-main);
   font-size: var(--font-size-xxl);
-  font-weight: var(--font-weight-normal);
+  font-weight: var(--font-weight-bold);
   line-height: 1.1;
 
   color: var(--color-secondary);
@@ -13,6 +13,7 @@ h1,
 .subtitle {
   font-size: var(--font-size-lg);
   margin-top: 20px;
+  font-weight: var(--font-weight-normal);
 }
 
 .blueSquare {
@@ -21,8 +22,6 @@ h1,
   height: 100vh;
   background-color: var(--color-primary);
   padding-left: 5%;
-  /* margin-bottom: 25px; */
-  /* padding-top: 700px; */
 
   display: flex;
   flex-direction: column;
@@ -67,6 +66,7 @@ h1,
   width: 50vh;
   max-width: 280px;
   height: auto;
+  border-radius: 7px;
 
   display: block;
   margin-left: auto;

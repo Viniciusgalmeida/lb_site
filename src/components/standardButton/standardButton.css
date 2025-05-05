@@ -4,6 +4,7 @@
 
   font-family: var(--font-family-main);
   font-weight: var(--font-weight-normal);
+  border-radius: 7px;
 
   border: none;
   padding: 15px 32px;
@@ -12,9 +13,10 @@
   display: inline-block;
   cursor: pointer;
 
-  transition: 100ms ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .standardButton:hover {
   background-color: var(--color-quaternary);
+  transform: scale(1.03);
 }
