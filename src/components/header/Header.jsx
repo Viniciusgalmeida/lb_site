@@ -18,11 +18,13 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <img
-          src={logoLucasBatista}
-          className="header-logo"
-          alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
-        />
+        <a href="/">
+          <img
+            src={logoLucasBatista}
+            className="header-logo"
+            alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
+          />
+        </a>
         <nav className="header-nav">
           <button className="header-nav-button" onClick={toggleMenu}>
             <img

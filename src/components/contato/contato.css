@@ -26,6 +26,12 @@
 .iconStyle {
   width: 50px;
   height: 50px;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.iconStyle:hover {
+  transform: scale(1.1);
 }
 
 .botaoCopiarEmail {
@@ -48,8 +54,8 @@
     background-color: var(--color-secondary);
     color: var(--color-primary);
     border: none;
+    border-radius: 7px;
     padding: 8px 12px;
-    border-radius: 5px;
     cursor: pointer;
     margin-bottom: 10px;
     font-size: 14px;
@@ -58,12 +64,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    transition: 200ms;
+    transition: transform 0.2s ease-in-out;
   }
 
   .botaoCopiarEmail:hover {
-    background-color: orange;
     color: var(--color-primary);
+    transform: scale(1.03);
   }
 
   .botaoCopiarEmail:active {
