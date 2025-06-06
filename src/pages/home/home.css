@@ -36,6 +36,10 @@ h1,
   justify-content: space-around;
 }
 
+.lucas_batista_logo {
+  display: none;
+}
+
 @media (min-width: 400px) and (max-width: 768px) {
   .lucas_batista_logo {
     position: absolute;
