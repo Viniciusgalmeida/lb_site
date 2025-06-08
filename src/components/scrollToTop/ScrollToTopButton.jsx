@@ -7,7 +7,7 @@ const ScrollToTopButton = () => {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      const hasScrolledPastOneScreen = window.scrollY > window.innerHeight;
+      const hasScrolledPastOneScreen = window.scrollY > window.innerHeight / 3;
       setIsVisible(hasScrolledPastOneScreen);
     };
 
