@@ -23,14 +23,25 @@
   width: 80%;
 }
 
-.iconStyle {
+.emailIconStyle,
+.whatsappIconStyle,
+.linkedinIconStyle {
   width: 50px;
   height: 50px;
 
   transition: transform 0.2s ease-in-out;
 }
 
-.iconStyle:hover {
+.emailIconStyle {
+  width: 50px;
+  height: 50px;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.emailIconStyle:hover,
+.whatsappIconStyle:hover,
+.linkedinIconStyle:hover {
   transform: scale(1.1);
 }
 
@@ -49,6 +60,20 @@
 }
 
 @media (min-width: 1024px) {
+  .emailIconStyle {
+    display: none;
+  }
+
+  .whatsappIconStyle,
+  .linkedinIconStyle {
+    margin: 0 40px;
+  }
+
+  .contatoLinks {
+    gap: 0px;
+    width: auto;
+  }
+
   .botaoCopiarEmail {
     display: block;
     background-color: var(--color-secondary);

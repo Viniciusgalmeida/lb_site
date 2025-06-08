@@ -32,7 +32,8 @@ function ContatoSection() {
         >
           <img
             src={emailIcon}
-            className="iconStyle"
+            className="emailIconStyle"
+            id="emailIcon"
             alt="Ícone do e-mail"
             loading="lazy"
           />
@@ -44,7 +45,7 @@ function ContatoSection() {
         >
           <img
             src={whatsappLogo}
-            className="iconStyle"
+            className="whatsappIconStyle"
             alt="Ícone do WhatsApp"
             loading="lazy"
           />
@@ -56,7 +57,7 @@ function ContatoSection() {
         >
           <img
             src={linkedinLogo}
-            className="iconStyle"
+            className="linkedinIconStyle"
             alt="Ícone do LinkedIn"
             loading="lazy"
           />
