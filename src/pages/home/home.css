@@ -138,6 +138,7 @@ h3 {
     height: 80vh;
     padding-right: 100px;
     align-items: flex-end;
+    top: -40px;
   }
 
   h1,
