@@ -40,6 +40,10 @@ h1,
   display: none;
 }
 
+.lucas_batista_logo_tablet {
+  display: none;
+}
+
 @media (min-width: 400px) and (max-width: 768px) {
   .lucas_batista_logo {
     position: absolute;
@@ -48,10 +52,6 @@ h1,
 
     display: none;
   }
-}
-
-.lucas_batista_logo_tablet {
-  display: none;
 }
 
 .lucas_batista_logo {
@@ -114,11 +114,14 @@ h3 {
   .lucas_batista_logo_tablet {
     display: block;
     position: absolute;
-    top: 15vh;
+    top: 0;
 
-    width: 48%;
-    left: 50%;
-    max-width: 700px;
+    width: auto;
+    max-width: 54.3vw;
+    overflow: hidden;
+    object-fit: cover;
+    left: 45%;
+    height: 55vh;
   }
 
   .lucasBatistaFoto {
@@ -145,6 +148,13 @@ h3 {
   .subtitle {
     margin-top: 0px;
   }
+
+  .lucas_batista_logo_tablet {
+    height: 80vh;
+    top: -40px;
+    /* max-width: 1000px; */
+  }
+
   .lucasBatistaFoto {
     width: 25vw;
     margin-top: -30vh;

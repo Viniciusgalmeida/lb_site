@@ -22,18 +22,18 @@ const Home = () => {
           <h1>
             LUCAS <br /> BATISTA
           </h1>
-          <p class={"subtitle"}>Mestre em Arq. Hospitalar</p>
+          <p class={"subtitle"}>Especialista em Arq. Hospitalar</p>
         </div>
         <img
           src={hospitalDesenhoEsquematico}
           class={"lucas_batista_logo"}
-          alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
+          alt="Logo de Lucas Batista - Especialista em Arquitetura Hospitalar"
         />
       </div>
       <img
         src={hospitalDesenhoEsquematico}
         class={"lucas_batista_logo_tablet"}
-        alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
+        alt="Logo de Lucas Batista - Especialista em Arquitetura Hospitalar"
       />
       <img src={lucasBatistaArq} class={"lucasBatistaFoto"} />
       <h3 id="servicos">Serviços Oferecidos</h3>

@@ -10,12 +10,9 @@ export const servicos = [
     image: medicalBuilding,
     text: [
       {
-        subText: "O serviço de projeto de arquitetura hospitalar consiste em:",
-        bulletPoints: [
-          "Elaboração do projeto legal de arquitetura (seja reforma ou obra nova) voltado para aprovação na Vigilância Sanitária local.",
-          "Acompanhamento da avaliação do projeto até ser aprovado.",
-          "Este processo pode envolver revisões ou reuniões com os órgãos reguladores.",
-        ],
+        subText:
+          "Projetos de arquitetura de hospitais, clínicas e outros serviços de atenção à saúde.",
+        bulletPoints: [],
       },
     ],
   },
