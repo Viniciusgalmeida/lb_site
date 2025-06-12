@@ -22,7 +22,7 @@ const Header = () => {
           <img
             src={logoLucasBatista}
             className="header-logo"
-            alt="Logo de Lucas Batista - Mestre em Arquitetura Hospitalar"
+            alt="Logo de Lucas Batista - Especialista em Arquitetura Hospitalar"
           />
         </a>
         <nav className="header-nav">
