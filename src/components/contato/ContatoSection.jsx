@@ -9,7 +9,7 @@ function ContatoSection() {
   const [copiado, setCopiado] = useState(false);
 
   const copiarEmail = () => {
-    navigator.clipboard.writeText("lucasvieirad2@gmai.com").then(() => {
+    navigator.clipboard.writeText("lucasvieirad2@gmail.com").then(() => {
       setCopiado(true);
       setTimeout(() => setCopiado(false), 3000); // some após 3 segundos
     });
@@ -20,13 +20,13 @@ function ContatoSection() {
       <h3 className="titleContato">Contato</h3>
 
       <button className="botaoCopiarEmail" onClick={copiarEmail}>
-        lucasvieirad2@gmai.com
+        lucasvieirad2@gmail.com
         <img src={copyIcon} alt="Copiar e-mail" className="iconeCopia" />
       </button>
 
       <div className="contatoLinks">
         <a
-          href="mailto:lucasvieirad2@gmai.com"
+          href="mailto:lucasvieirad2@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
