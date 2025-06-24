@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
 import logoLucasBatista from "../../assets/lucasBatistaLogo.svg";
 import menuHamburger from "../../assets/menuHamburger.svg";
@@ -7,12 +7,28 @@ import menuHamburgerBlue from "../../assets/menuHamburgerBlue.svg";
 const Header = () => {
   const [menuAberto, setMenuAberto] = useState(false);
 
+  // Handle body scroll class when menu state changes
+  useEffect(() => {
+    if (menuAberto) {
+      document.body.classList.add('body-no-scroll');
+    } else {
+      document.body.classList.remove('body-no-scroll');
+    }
+  }, [menuAberto]);
+
   const toggleMenu = () => {
     setMenuAberto(!menuAberto);
   };
 
   const fecharMenu = () => {
     setMenuAberto(false);
+  };
+
+  const handleBackgroundClick = (e) => {
+    // Only close if clicking directly on the background div
+    if (e.target.className === 'menu-popup') {
+      fecharMenu();
+    }
   };
 
   return (
@@ -64,10 +80,7 @@ const Header = () => {
       </header>
 
       {menuAberto && (
-        <div className="menu-popup">
-          <button className="fechar-menu" onClick={fecharMenu}>
-            ×
-          </button>
+        <div className="menu-popup" onClick={handleBackgroundClick}>
           <ul className="menu-links">
             <li>
               <a href="#servicos" onClick={fecharMenu}>
