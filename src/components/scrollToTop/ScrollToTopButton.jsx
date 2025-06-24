@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { route } from "preact-router";
 import "./scrollToTopButton.css";
 import buttonToTopIcon from "../../assets/buttonToTop.svg"; // Importação do ícone
 
@@ -20,6 +21,7 @@ const ScrollToTopButton = () => {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    route('/');
   };
 
   return (

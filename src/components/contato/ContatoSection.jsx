@@ -64,7 +64,7 @@ function ContatoSection() {
         </a>
       </div>
 
-      {copiado && <div className="notificacaoCopiado">*E-mail copiado</div>}
+      {copiado && <div className="notificacaoCopiado">E-mail copiado</div>}
     </section>
   );
 }
